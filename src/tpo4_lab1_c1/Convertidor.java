@@ -88,7 +88,7 @@ public class Convertidor extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(this, cel + "°C equivalen a: "+ far + "°F");
       } catch (NumberFormatException nf){
           JOptionPane.showMessageDialog(this, "Ingrese un valor válido");
-          
+          JtCelcius.requestFocus();
           
       }
         
